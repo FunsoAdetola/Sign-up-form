@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  font-family: 'Poppins', sans-serif;
+
+}
+.row{
+  padding: 5rem 3rem;
+}
+.heading{
+  color: white;
+  padding: 3rem 0 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1{
+  font-size: 2.5rem;
+  padding: 0 1rem 0 0 ;
+}
+.heading p{
+  line-height: 1.5;
+  font-size: 12px;
+}
+.sign-up{
+  padding: 3rem;
+}
+.form-area{
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+}
+input{
+  width: 100%;
+  height: 2.5rem;
+  border: 0.2px solid #e8e8e8;
+  box-shadow:
+  color:hsl(249, 10%, 26%);
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 12px;
+  text-indent: 30px;
+  border-radius: 3px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+label.error{
+  color:red;
+  font-size: 10px;
+  display: block;
+  margin-top: 5px;
+  text-align: right;
+}
+input.error{
+  border: 3px solid red;
+  font-weight: 300;
+  color: red;
+  background-image: url("../images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: right 3% bottom 50%;
+  background-size: 18px;
+}
+
+.try-button{
+  background-color: hsl(248, 32%, 49%);
+  border: hsl(248, 32%, 49%);
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.claim-button{
+  background-color: hsl(154, 59%, 51%);
+  border: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.pink{
+  color:hsl(0, 100%, 74%);
+}
+.form-area p{
+  color:hsl(246, 25%, 77%);
+  font-size: 9px;
+  text-align: center;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width:768px){
+  body{
+    background-image: url("../images/bg-intro-mobile.png");
+  }
+  .row{
+    padding: 4rem 1rem
+  }
+.heading{
+  padding: 0 1%;
+  margin: 3rem auto;
+  text-align: center;
+}
+h1{
+  font-weight: 500;
+  font-size: 2rem;
+}
+.heading p{
+  padding: 0;
+  line-height: 2;
+  font-size: 15px;
+}
+.sign-up{
+  padding:0;
+  margin:auto 0.5rem;
+}
+.try-button{
+  padding: 1rem 5rem;
+}
+}
